@@ -28,7 +28,7 @@ def load_artifacts():
     return model, scaler, metadata
 
 
-st.title("❤️ Heart Disease Risk Predictor")
+st.title(" Heart Disease Risk Predictor")
 st.caption("Machine Learning project — Edunet Foundation / IBM SkillsBuild Internship")
 
 try:
@@ -90,7 +90,7 @@ if st.button("Predict Heart Disease Risk", type="primary", use_container_width=T
     if prediction == 1:
         st.error(f" High risk of heart disease detected (probability: {probability*100:.1f}%)")
     else:
-        st.success(f"✅ Low risk of heart disease (probability: {probability*100:.1f}%)")
+        st.success(f" Low risk of heart disease (probability: {probability*100:.1f}%)")
 
     st.progress(min(int(probability * 100), 100))
     st.caption(
