@@ -1,0 +1,8 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC,CV Accuracy (5-fold)
+Random Forest,0.8197,0.7619,0.9697,0.8533,0.9123,0.8349
+Support Vector Machine,0.8197,0.775,0.9394,0.8493,0.8831,0.802
+Gradient Boosting,0.8197,0.7895,0.9091,0.8451,0.8788,0.802
+K-Nearest Neighbors,0.8197,0.7895,0.9091,0.8451,0.8837,0.8101
+Naive Bayes,0.8197,0.7895,0.9091,0.8451,0.8755,0.8058
+Logistic Regression,0.8033,0.7692,0.9091,0.8333,0.869,0.8309
+Decision Tree,0.7049,0.7027,0.7879,0.7429,0.6975,0.7316

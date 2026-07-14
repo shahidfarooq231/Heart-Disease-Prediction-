@@ -1,0 +1,21 @@
+{
+  "best_model": "Random Forest",
+  "accuracy": 0.7869,
+  "f1_score": 0.8267,
+  "roc_auc": 0.921,
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ]
+}
