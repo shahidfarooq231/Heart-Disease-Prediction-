@@ -1,14 +1,3 @@
-"""
-Heart Disease Prediction - Training Pipeline
-==============================================
-Loads the UCI Heart Disease dataset, performs EDA, preprocesses the data,
-trains multiple classification models, compares their performance, and
-saves the best-performing model + scaler to disk for later inference.
-
-Run:
-    python src/train.py
-"""
-
 import os
 import json
 import warnings
