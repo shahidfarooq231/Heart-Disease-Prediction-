@@ -16,7 +16,7 @@ MODEL_PATH = os.path.join(ROOT, "models", "best_model.pkl")
 SCALER_PATH = os.path.join(ROOT, "models", "scaler.pkl")
 METADATA_PATH = os.path.join(ROOT, "models", "metadata.json")
 
-st.set_page_config(page_title="Heart Disease Predictor", page_icon="❤️", layout="centered")
+st.set_page_config(page_title="Heart Disease Predictor", page_icon="P", layout="centered")
 
 
 @st.cache_resource
